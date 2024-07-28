@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CleanArchitectureKonsoleVSIX.9cf65173-ed6c-455c-a2dd-0d5f1b91c6e0" Version="2.2" Language="de-DE" Publisher="SM" />
-        <DisplayName>CleanArch</DisplayName>
-        <Description xml:space="preserve">Clean Architecture Vorlage für Konsolenanwendungen</Description>
-        <Icon>infas-logo-white_150.ico</Icon>
+        <Identity Id="CleanArchitectureKonsoleVSIX.9cf65173-ed6c-455c-a2dd-0d5f1b91c6e0" Version="3.0" Language="de-DE" Publisher="Sascha Manns" />
+        <DisplayName>SaschasCleanArch</DisplayName>
+        <Description xml:space="preserve">Clean Architecture Template for Console Apps</Description>
+        <MoreInfo>https://github.com/saigkill/SaschasCleanArch</MoreInfo>
+        <License>LICENSE.txt</License>
+        <Icon>480px-Data_icon_coloured.svg.png</Icon>
+        <Tags>Clean Aechitecture, Clean Code</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
     </Installation>

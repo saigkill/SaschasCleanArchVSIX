@@ -49,7 +49,11 @@
     <Compile Include="CleanArchitectureKonsoleVSIXPackage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="infas-logo-white_150.ico">
+    <Content Include="480px-Data_icon_coloured.svg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
